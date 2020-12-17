@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="post">
+        {% if post.created_time %}
+            <div class="date">
+                {{ post.created_time }}
+            </div>
+        {% endif %}
+        <h2>Inputted text: {{ post.user_response }}</h2>
+        <h3>Sentiment Polarity: {{ post.test }}</h3><span>Sentiment polarity ranges from -1 to 1. Closer to 1 is cleaner.</span>
+    </div>
+{% endblock %}
