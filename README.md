@@ -1,6 +1,6 @@
 # csci29-finalproject
 
-For my final project, I attempted to build a Django Web application which would take in user-inputted text via a form, evaluate the degree of proanity the inputted text has and (potentially) return a cleaned version. I could not implement this product to its fullest extend within the timeline. I'm submitting whatever I've developed so far for partial credit. The web application is not live yet. 
+For my final project, I attempted to build a Django Web application which would take in user-inputted text via a form, evaluate the degree of profanity the inputted text has and (potentially) return a cleaned version. I could not implement this product to its fullest extend within the timeline. I'm submitting whatever I've developed so far for partial credit. The web application is not live yet. 
 
 ## Instructions for demo
 1. Clone this repo
