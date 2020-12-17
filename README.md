@@ -21,6 +21,7 @@ I could not fix the `profanity-filter` package dependencies (which was going to 
 
 ### Views
 I have implemented 2 views here. I'm leveraging the templates to show data dynamically.
+The first view has a text form which takes in user input. I'm using Django `ModelForm` and is directly saing the data into `User Responses` model. Clicking the check profanity score button would automatically redirect the user to the second view, which shows the results. For now, it shows the inputted text and the polarity scores.
 
 
 ## Future functionality
@@ -28,3 +29,4 @@ I intend to continue working on this project and some of the functionality which
 
 1. Configure s3 as the backend for Django and save the data as parquet
 2. Leverage dask to compute summary statistics and publish an analytics dashboard
+3. Incorporate language geenration and a better model to quantify degreee of profanity.
